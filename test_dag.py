@@ -3,10 +3,6 @@ from apache_beam.testing.test_pipeline import TestPipeline
 from apache_beam.testing.util import assert_that
 from apache_beam.testing.util import equal_to
 from src.dag import CustomFn
-import warnings
-
-warnings.filterwarnings("ignore", message="Call to deprecated create function")
-# warnings.filterwarnings("ignore", message="cannot collect test class")
 
 class TestSimple():
 
